@@ -45,7 +45,7 @@ Input Text → Preprocessing → [Branch A: BERT/RoBERTa] + [Branch B: EmoLLaMA]
 ## Setup
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/emotion-aware-financial-misinformation-detection
+git clone https://github.com/SecureAICoder/emotion-aware-financial-misinformation-detection
 pip install -r requirements.txt
 ```
 
