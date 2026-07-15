@@ -24,9 +24,11 @@ Input Text → Preprocessing → [Branch A: BERT/RoBERTa] + [Branch B: EmoLLaMA]
 
 | Dataset | Size | Labels | Source |
 |---------|------|--------|--------|
-| FinFact | 3,369 claims | True / False / NEI | Rangapur et al. (2025) |
-| FinGuard | 5,000 articles | Real / Fake | Carlos-Martin et al. |
-| RFC-Bench | 1,826 pairs | True / False | Jiang et al. (2026) |
+| FinFact | 3,369 claims | True / False / NEI | [Rangapur et al. 2025](https://github.com/IIT-DM/Fin-Fact) |
+| FinGuard | 5,000 articles | Real / Fake | [Carlos-Martin et al.](https://github.com/carlos-gmartin/Financial-Truth-Guard) |
+| RFC-Bench | 1,826 pairs | True / False | [Jiang et al. 2026](https://huggingface.co/datasets/Shreya-1912/EmotionAwareModel) |
+
+See [`data/README.md`](data/README.md) for full dataset details and loading instructions.
 
 ## Models
 
